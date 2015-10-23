@@ -1,0 +1,32 @@
+.box {
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+	padding: 10px;
+	border: 20px double black;
+	/* going off the dimensions of the parent */
+	float: left;
+	}
+
+.boxTwo {
+	height: 50px;
+	width: 50px;
+	background-color: green;
+	float: right;
+}
+
+.bigBox {
+	height: 100px;
+	width: 100%;
+	background-color: purple;
+}
+
+h3 {
+	color: red;
+	margin: 0;
+}
+
+.box h3 {
+	color: yellow;
+}
+

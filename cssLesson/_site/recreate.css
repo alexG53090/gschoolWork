@@ -1,0 +1,70 @@
+.sideNav {
+	height: 700px;
+	width: 200px;
+	background-color: #a7a7a7;
+	float: left;
+}
+
+.sideNavList {
+	list-style: none;
+}
+
+.wrapper {
+	margin-top: 5%;
+	height: 200px;
+	width: 60%;
+	margin: auto;
+	clear: right;
+	background-color: blue;
+}
+
+.box {
+	height: 150px;
+	width:30%;
+	background-color: yellow;
+	display: inline-block;
+	margin: auto;
+	margin-top: 2.5%;
+	padding: auto;
+}	
+
+.box1 {
+	margin-left: 4.5%;
+}
+
+.box2 {
+}
+
+.box3 {
+}
+
+ul {
+	height: 200px;
+}
+
+ul li {
+height: 40px;
+}
+h2 {
+	clear:right;
+	margin-top: 0;
+}
+
+.paragraph {
+	float: right;
+	width: 80%;
+	padding-bottom: 50px;
+}
+
+.product {
+	height: 75px;
+	width: 75px;
+	background-color: green;
+	margin:auto;
+	margin-top: 10%;
+}
+
+span {
+	background-color: yellow;
+}
+
