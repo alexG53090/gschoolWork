@@ -1,0 +1,450 @@
+/* normalize stuff that I know off the top of the dome */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #00FF00;
+	width: 100%;
+}
+nav {
+	width: 100%;
+	height: 60px;
+	background-color:white;
+}
+
+nav ul {
+	width: 100%;
+}
+nav ul li {
+	display: inline-block;
+}
+nav li {
+	color: #826A21;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+
+}
+
+button {
+	width: 50px;
+	background-color: white;
+
+}
+.dayButton{
+
+	border: none;
+	color: #00ffff;
+	font-weight: bolder;
+		text-align: right;
+}
+.nightButton {
+background-color: black;
+	border: none;
+	color: #ffff4d;
+	font-weight: bolder;
+		text-align: left;
+
+}
+
+footer ul li {
+	display: inline-block;
+}
+footer li {
+	width:15%;
+	color: white;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+}
+footer {
+	margin-left: 28%;
+	margin-top: 100px;
+
+}
+li {
+	list-style: none;
+}
+/* Link Styling, yeeeahhh */
+a:link { color: #FF0000; }
+a:visited { color: #826A21; }
+a:hover { color: #FF00FF; }
+a:active { color: #0000FF; }
+/* custom styling */
+.header {
+	margin-top: 1%;
+	margin-left: 1%;
+	float: left;
+	width: 15%;
+
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #826A21;
+	font-size: 5em;
+	line-height: 55px;
+	letter-spacing: -5px;
+}
+.mainBg p {
+	margin-left: 30%;
+	margin-right: 35%;
+	line-height: 1.6em;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 1.5em;
+	
+}
+.mainBg {
+	width: 98%;
+	margin: auto;
+	background-color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.mainBg .selfie {
+	height: 40%;
+	margin-left:14%;
+	margin-right: auto;
+	margin-top: 1%;
+}
+.pageBreak {
+	width:70%;
+	margin-left:2.5%;
+	color: #a7a7a7;
+}
+.jules {
+	height:50%;
+	margin-left: 14%;
+}
+
+/* night stylez */
+
+.nightBg {
+	background-color: black;
+}
+
+.nightFont {
+	color: white;
+}
+
+.nightBody {
+	background-color:  #FF00FF;
+}
+.nightHeader {
+	color: #00ffff;
+}
+.nightNav {
+	background-color: black;
+	color: #ffff4d;
+}
+.nightLi {
+	color: #00ffff;
+}
+.nightLi a:visited { color:#00ffff ; }
+
+.linkin {
+	color: #826A21;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
+.nightLink {
+	color: white;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
+/*** future me styling *****/
+
+#feelings {
+	margin:auto;
+	padding:auto;
+	width: 30%;
+	font-size: 2em;
+	color: #826A21;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	margin-left: 20%;
+	background-color:#00FF00; 
+	height: 60px;
+	vertical-align: center;
+}
+
+#feelings:hover {
+	margin:auto;
+	padding:auto;
+	width: 30%;
+	font-size: 2em;
+	color:#00ff00 ;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	margin-left: 20%;
+	background-color:#826A21; 
+	height: 60px;
+	vertical-align: center;
+}
+
+.cool {
+	margin:auto;
+	padding:auto;
+	width: 50%;
+	font-size: 2em;
+	color: #826A21;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	background-color:#00FF00; 
+	height: 60px;
+	vertical-align: center;
+	margin-left: 20%;
+	margin-top: 1%;
+
+}
+
+.cool:hover {
+	margin:auto;
+	padding:auto;
+	width: 50%;
+	font-size: 2em;
+	color: #00ff00;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	background-color:#826A21; 
+	height: 60px;
+	vertical-align: center;
+	margin-left: 20%;
+	margin-top: 1%;
+
+
+}
+
+.naeNae {
+	width: 45%;
+	margin: auto;
+	padding: auto;
+}
+
+/* Bootstrap for moblie */
+@media screen and (max-width: 600px) {
+	body {
+	    background-color: lightgreen;
+
+	}
+	nav {
+		width: 100%;
+		height: 80px;
+		background-color:white;
+		color: gold;
+	}
+	nav ul li {
+		display: inline-block;
+	}
+	nav li {
+		width:20%;
+		color: yellow;
+		font-size: .7em;
+		font-family: Verdana;
+		margin-top: 32px;
+		text-align: center;
+	}
+	footer ul li {
+		display: block;
+		width: 100%;
+	}
+	.mainBg .selfie {
+		height: 20%;
+		margin-left:15%;
+		margin-right: auto;
+		margin-top: .8%;
+	}
+	.jules{
+		height: 10%;
+		width: 70%;
+	}
+	.mainBg p {
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 1.5em;
+		font-family: sans-serif;
+		font-weight: lighter;
+		font-size: 1.3em;
+	}
+	.mainBg h1 {
+
+	
+		
+		padding-top: 1%;
+		font-family: sans-serif;
+		font-weight: bolder;
+		color: #826A21;
+		letter-spacing: 0px;
+		font-size: 3em;
+		text-align: left;
+		margin-left: 10%;
+		width: 80%;
+		float: left;
+
+	
+	}
+	.mainBg img {
+		margin-left: 10%;
+	}
+	.navButt {
+	}
+	button {
+		border: none;
+	}
+	.butt {
+		background-color: blue;
+	}
+	.header {
+		font-size: 1.6em;
+		margin-bottom: 10px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #826A21;
+	text-align: center;
+	width: 100%;
+		line-height: 50px;
+	letter-spacing: 5px;
+}
+}
+@media screen and (max-width: 1125px) {
+	body {
+	    height: 2000px;
+	    background-color: orange;
+	}
+	nav {
+		width: 100%;
+		height: 80px;
+		background-color:white;
+	}
+	nav ul li {
+		display: inline-block;
+			color: gold;
+	}
+	nav li {
+		width:10%;
+		color: white;
+		font-size: .7em;
+		font-family: Verdana;
+		margin-top: 32px;
+		text-align: center;
+	}
+	.mainBg {
+		height: 110%;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-top: 1%;
+		background-color: white;
+	}
+	.mainBg .selfie {
+		height: 15%;
+		margin-left:10%;
+		margin-right: auto;
+		margin-top: .8%;
+	}
+		.mainBg p {
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 1.5em;
+		font-family: sans-serif;
+		font-weight: lighter;
+		font-size: 1.3em;
+	}
+	.mainBg h1 {
+		
+		padding-top: 1%;
+		font-family: sans-serif;
+		font-weight: bolder;
+		color: #826A21;
+		letter-spacing: 0px;
+		font-size: 3em;
+		text-align: left;
+		margin-left: 10%;
+		width: 80%;
+		float: left;
+
+	}
+	button {
+		border: none;
+		background-color: blue;
+	}
+	.butt {
+		margin-left: 5%;
+	}
+	.header {
+		font-size: 1.6em;
+		margin-bottom: 10px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #826A21;
+	text-align: center;
+	width: 100%;
+	float: right;
+}
+	.jules{
+		height: 20%;
+		width: 70%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.jules{
+		height: 10%;
+		width: 70%;
+	}
+	body {
+		
+		  background-color: blue;
+	}
+	.navButt {
+
+	}
+	button {
+		border: none;
+		background-color: #213982;
+	}
+
+		.mainBg {
+		height: 98%;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-top: 1%;
+		background-color: white;
+	}
+	.header {
+		font-size: 1.6em;
+		margin-bottom: 10px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #826A21;
+	text-align: center;
+	width: 100%;
+	float: right;
+		line-height: 50px;
+	letter-spacing: -5px;
+}
+.nightBg {
+	background-color: black;
+}
+}
